@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&&display=swap');
+
+h1,
+h2 {
+    font-family: "Montserrat", "Arial", sans-serif;
+}
+
+* {
+    font-family: "Lora", "Times New Roman", serif;
+}
+
+#nav-logo {
+    width: 100%;
+    object-fit: cover;
+}
+
+main {
+    padding: 5% 10%;
+}
+
+h1 {
+    margin: 10px;
+}
+
+#main-nav {
+    box-shadow: -1px -4px 29px 6px rgba(0, 0, 0, 0.67);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 10px;
+    background-color: #616dad;
+}
+
+.nav-logo-holder {
+    flex-basis: 40px;
+    margin-left: 5px;
+}
+
+
+#main-buttons li {
+    display: inline-block;
+}
+
+#burger-nav {
+    display: none;
+}
+
+#burger {
+    display: none;
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#burger-buttons {
+    background-color: black;
+}
+
+.burger-link {
+    font-weight: bold;
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 3px;
+    background-color: #2439a6;
+    padding: 10px;
+
+}
+
+
+#footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#footer-nav nav {
+    flex: 1 0 30%;
+    background-color: #616dad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    padding: 15px;
+}
+
+#credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 2 70%;
+    align-self: stretch;
+    background-color: #234465;
+    color: whitesmoke;
+    padding: 15px;
+
+}
+
+#credits li {
+    margin: 5px;
+}
+
+
+.nav-link {
+    color: whitesmoke;
+    display: inline-block;
+    margin: 5px;
+    background-color: #2439a6;
+    ;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer .nav-link {
+    margin: 5px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#github-button {
+    box-shadow: 9px 11px 14px -5px rgba(0, 0, 0, 0.67);
+    margin-top: 20px !important;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+#home-article {
+    box-shadow: 9px 11px 14px -5px rgba(0, 0, 0, 0.67);
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-header {
+    text-align: center;
+}
+
+#home-description {
+    text-align: justify;
+}
+
+#home-article * {
+    margin: 5px;
+}

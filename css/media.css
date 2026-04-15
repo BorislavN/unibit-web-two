@@ -1,0 +1,78 @@
+@media all and (min-width: 450px) and (max-width: 768px) {
+    main {
+        padding: 5% 7%;
+    }
+
+    #battles article {
+        flex: 0 1 45%
+    }
+
+    #lightbox-article {
+        width: 90% !important;
+    }
+
+    #tanks {
+        grid-template: 1fr 1fr 1fr / 1fr 1fr !important;
+        gap: 7px
+    }
+}
+
+@media all and (min-width: 500px) {
+    #burger-nav {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #battles article {
+        flex: 0 1 100%
+    }
+
+    #tanks {
+        grid-template-columns: 1fr !important;
+        gap: 5px
+    }
+
+    #main-buttons {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #lightbox-article {
+        flex-direction: column;
+    }
+
+    #lightbox-img {
+        aspect-ratio: 4/2;
+    }
+
+    #lightbox-close {
+        order: -2;
+        align-self: end;
+    }
+}
+
+@media all and (max-width: 450px) {
+    main {
+        padding: 3% 3%;
+    }
+
+    #footer-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #home-article {
+        padding: 10px;
+    }
+
+    #lightbox-article {
+        width: 95% !important;
+    }
+}
